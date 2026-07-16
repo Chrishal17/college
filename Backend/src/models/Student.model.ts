@@ -20,8 +20,6 @@ const studentSchema = new Schema<IStudent & Document>(
   { timestamps: true }
 );
 
-studentSchema.index({ email: 1 });
-studentSchema.index({ rollNumber: 1 });
 studentSchema.index({ department: 1 });
 
 export default mongoose.model<IStudent & Document>('Student', studentSchema);

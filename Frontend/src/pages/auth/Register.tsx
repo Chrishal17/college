@@ -45,7 +45,6 @@ const Register: React.FC = () => {
       const result = await registerUser({
         ...data,
         year: Number(data.year),
-        confirmPassword: undefined,
       });
       navigate('/verify-otp', { state: { email: result.email } });
     } catch (error: any) {

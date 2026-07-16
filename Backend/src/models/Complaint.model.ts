@@ -35,7 +35,6 @@ const complaintSchema = new Schema<IComplaint & Document>(
   { timestamps: true }
 );
 
-complaintSchema.index({ complaintId: 1 });
 complaintSchema.index({ studentId: 1 });
 complaintSchema.index({ status: 1 });
 complaintSchema.index({ category: 1 });
