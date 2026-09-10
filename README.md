@@ -7,6 +7,8 @@ A full-stack web application for managing college student complaints, notificati
 This project is designed for a college environment where students can submit complaints, track their status, and receive notifications, while administrators can manage complaints, students, and analytics dashboard
 
 The repository contains two main folders:
+one is frontend
+another one is backend
 
 - `Backend/` — Express.js + TypeScript + MongoDB API
 - `Frontend/` — React + Vite + TypeScript user interface ui
