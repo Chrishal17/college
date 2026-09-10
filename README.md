@@ -8,7 +8,7 @@ This project is designed for a college environment where students can submit com
 
 The repository contains two main folders:
 
-- `Backend/` — Express.js + TypeScript + MongoDB API
+- `Backend/` — Express.js + TypeScript + MongoDB API and 
 - `Frontend/` — React + Vite + TypeScript user interface
 
 ## System Modules
